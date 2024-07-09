@@ -11,7 +11,8 @@
   <div id="container">
     <h1 class="title">더치페이 계산기</h1>
     <div id="item-container">
-      <div>
+      <div class="container">
+        <div class="priceContainer">
           <h3 class="wrapTitle">총 금액</h3>
           <div id="wrap">
             <div class="priceInputBox">
@@ -19,17 +20,17 @@
             </div>  
           <div id="priceBox"></div>
         </div>
-        <div class="itemBtnBox"></div>
-      </div>
-      <div>
-        <h3 class="wrapTitle">참여인원</h3>
-        <div id="wrap">
-          <div class="userInputBox">
-            <input type="text" id="userName">
+        <div class="userContainer">
+          <h3 class="wrapTitle">참여인원</h3>
+          <div id="wrap">
+            <div class="userInputBox">
+              <input type="text" id="userName">
+            </div>
+            <ul id="userList"></ul>
           </div>
-          <ul id="userList"></ul>
         </div>
       </div>
+      <div class="itemBtnBox"></div>
     </div>
   </div>
   <script src="./user.js"></script>
